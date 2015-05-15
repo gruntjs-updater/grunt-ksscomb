@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         function getConfigPath(configPath) {
             var dirname, parentDirname;
 
-            configPath = configPath || path.join(process.cwd(), '.csscomb.json');
+            configPath = configPath || path.join(process.cwd(), '.ksscomb.json');
 
             // If we've finally found a config, return its path:
             if (grunt.file.exists(configPath)) {
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 
             // If there is no config in this directory, go one level up and look for
             // a config there:
-            configPath = path.join(parentDirname, '.csscomb.json');
+            configPath = path.join(parentDirname, '.ksscomb.json');
             return getConfigPath(configPath);
         }
 
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
             config = grunt.file.readJSON(config);
         } else {
             grunt.log.ok('Using default config file...');
-            config = Comb.getConfig('csscomb');
+            config = Comb.getConfig('kalon');
         }
 
         // Configure csscomb:
