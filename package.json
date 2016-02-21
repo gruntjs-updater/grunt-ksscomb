@@ -38,7 +38,7 @@
     "grunt-contrib-nodeunit": "^0.4.1"
   },
   "peerDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin",
@@ -62,12 +62,11 @@
       "email": "ijok.ijok@gmail.com"
     }
   ],
-  "readme":"## Install \n\n ```shell\nnpm install grunt-ksscomb --save-dev\n```",
+  "readme": "ERROR: No README data found!",
   "dist": {
     "shasum": "739fc4c7d92ce733313e5ea0092547e7c09aa51c",
     "tarball": "http://registry.npmjs.org/grunt-csscomb/-/grunt-csscomb-3.0.0.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/grunt-csscomb/-/grunt-csscomb-3.0.0.tgz",
-  "readme": "ERROR: No README data found!"
+  "_resolved": "https://registry.npmjs.org/grunt-csscomb/-/grunt-csscomb-3.0.0.tgz"
 }
